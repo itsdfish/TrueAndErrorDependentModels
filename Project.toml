@@ -1,10 +1,22 @@
 name = "TrueAndErrorDependentModels"
 uuid = "07e9ded4-b20f-4255-9023-380d1af610f1"
-authors = ["itsdfish <itsdfish@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+authors = ["itsdfish"]
+version = "0.1.0"
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
+TrueAndErrorModels = "260ba6b7-9af7-473a-b238-1a1a0638f266"
+
+[sources]
+TrueAndErrorModels = {url = "https://github.com/itsdfish/TrueAndErrorModels.jl"}
 
 [compat]
-julia = "1.6.7"
+Distributions = "0.25.120"
+Random = "1.11.0"
+TestItemRunner = "1.1.0"
+TrueAndErrorModels = "0.2.17"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

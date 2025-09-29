@@ -1,6 +1,3 @@
-using TrueAndErrorDependentModels
-using Test
+using TestItemRunner
 
-@testset "TrueAndErrorDependentModels.jl" begin
-    # Write your tests here.
-end
+@run_package_tests
