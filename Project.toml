@@ -1,7 +1,7 @@
 name = "TrueAndErrorDependentModels"
 uuid = "07e9ded4-b20f-4255-9023-380d1af610f1"
 authors = ["itsdfish"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -16,7 +16,7 @@ TrueAndErrorModels = {url = "https://github.com/itsdfish/TrueAndErrorModels.jl"}
 Distributions = "0.25.120"
 Random = "1.11.0"
 TestItemRunner = "1.1.0"
-TrueAndErrorModels = "0.2.17"
+TrueAndErrorModels = "0.3.0"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
